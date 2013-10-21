@@ -1,22 +1,19 @@
 faa-dof-gp
 ==========
 
-Written by [Jeff Jacobson] for [Washington State Department of Transportation (WSDOT) GIS & Roadway Data Office].
+Forked from ArcGIS version Written by [Jeff Jacobson] for [Washington State Department of Transportation (WSDOT) GIS & Roadway Data Office].
 
 
 ## Summary ##
 
-This library provides the ability to read the [Federal Aviation Administration (FAA) Terrain and Obstacles Data (TOD) Team - Digital Obstacle File (DOF) files].
+This library provides the ability to read the [Federal Aviation Administration (FAA) Terrain and Obstacles Data (TOD) Team - Digital Obstacle File (DOF) files] and export a SQLite Database
 
 ## Dependencies ##
-
-* ArcGIS Desktop must be installed on computer.  (Having just ArcGIS Server instead of ArcGIS Desktop may also work, but has not been tested.)
-* ArcView license level should be sufficient.
 
 ## Modules ##
 
 ### faadof.py ###
-Provides utilities for importing FAA DOF data into a geodatabase.
+Provides utilities for importing FAA DOF data into a SQLite Geodatabase.
 
 ### remotezip.py ###
 Reads remote ZIP files using HTTP range requests.  This allows a file contained in a remote ZIP archive to be downloaded and extracted without the need to download the *entire* ZIP archive.
